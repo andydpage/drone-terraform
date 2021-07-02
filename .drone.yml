@@ -3,4 +3,4 @@ pipeline:
     image: jmccann/drone-terraform:5
     vars:
       app_name: my-project
-      app_version: 1.0.0
+      app_version: 1.0.1
