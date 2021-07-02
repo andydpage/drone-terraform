@@ -5,8 +5,8 @@ variable "region" {
 }
   
 provider "aws" {
-  access_key = "${var.access_key}"
-  secret_key = "${var.secret_key}"
+  access_key = ${AWS_ACCESS_KEY_ID}
+  secret_key = ${AWS_SECRET_ACCESS_KEY}
   region     = "${var.region}"
 }
 
