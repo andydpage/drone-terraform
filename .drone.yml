@@ -4,3 +4,4 @@ pipeline:
     vars:
       app_name: my-project
       app_version: 1.0.1
+      tf_version: 0.11.15
