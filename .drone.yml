@@ -5,4 +5,3 @@ pipeline:
     vars:
       app_name: my-project
       app_version: 1.0.1
-      access_key: 12345
