@@ -2,8 +2,5 @@ pipeline:
   terraform:
     image: jmccann/drone-terraform:5
     tf_version: 0.11.15
-    environment:
-    AWS_ACCESS_KEY_ID:
-      from_secret: access_key
-    AWS_SECRET_ACCESS_KEY:
-      from_secret: secret_key
+    secrets:
+      my_secret: access_key
