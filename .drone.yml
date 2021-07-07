@@ -1,6 +1,6 @@
 pipeline:
   terraform:
-    image: jmccann/drone-terraform:5
     tf_version: 0.11.15
+    image: jmccann/drone-terraform:5  
     secrets:
       my_secret: access_key
